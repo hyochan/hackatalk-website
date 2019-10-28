@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'HackaTalk', // Title for your website.
   tagline: 'A website for testing',
   url: 'https://dooboolab.github.io', // Your website URL
-  baseUrl: '/hackatalk/', // Base URL for your project */
+  baseUrl: '/hackatalk-website/', // Base URL for your project */
 
   // Used for publishing and more
   projectName: 'hackatalk-website',
