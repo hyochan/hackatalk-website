@@ -1,0 +1,530 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "0": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      35,
+      0
+    ],
+    "1": [
+      0,
+      3,
+      4,
+      6,
+      8,
+      1
+    ],
+    "@site/src/pages/index.js": [
+      0,
+      2
+    ],
+    "@theme/BlogListPage": [
+      0,
+      1,
+      3
+    ],
+    "@theme/BlogPostPage": [
+      0,
+      1,
+      4
+    ],
+    "@theme/BlogTagsListPage": [
+      0,
+      5
+    ],
+    "@theme/BlogTagsPostsPage": [
+      0,
+      1,
+      6
+    ],
+    "@theme/DocItem": [
+      7
+    ],
+    "@theme/DocPage": [
+      0,
+      1,
+      8
+    ],
+    "@site/blog/2019-05-29-hello-world.md?truncated=true": [
+      9
+    ],
+    "@site/blog/2019-05-28-hola.md?truncated=true": [
+      10
+    ],
+    "@site/blog/2019-05-29-hello-world.md": [
+      11
+    ],
+    "@site/blog/2019-05-28-hola.md": [
+      12
+    ],
+    "@site/blog/2019-05-30-welcome.md": [
+      13
+    ],
+    "@site/blog/2019-05-30-welcome.md?truncated=true": [
+      14
+    ],
+    "@site/docs/doc1.md": [
+      15
+    ],
+    "@site/docs/doc2.md": [
+      16
+    ],
+    "@site/docs/doc3.md": [
+      17
+    ],
+    "@site/docs/mdx.md": [
+      18
+    ],
+    "@docusaurus-plugin-content-docs/hackatalk-website-docs-a30.json": [
+      19
+    ],
+    "main": [
+      33,
+      20
+    ],
+    "@docusaurus-plugin-content-blog/hackatalk-website-blog-fd7.json": [
+      21
+    ],
+    "@docusaurus-plugin-content-blog/hackatalk-website-blog-tags-docusaurus-8ec.json": [
+      22
+    ],
+    "@docusaurus-plugin-content-blog/hackatalk-website-blog-tags-facebook-f96.json": [
+      23
+    ],
+    "@docusaurus-plugin-content-blog/hackatalk-website-blog-tags-hello-9fb.json": [
+      24
+    ],
+    "@docusaurus-plugin-content-blog/hackatalk-website-blog-tags-hola-be6.json": [
+      25
+    ],
+    "@docusaurus-plugin-content-blog/hackatalk-website-blog-welcome-281.json": [
+      26
+    ],
+    "@docusaurus-plugin-content-docs/hackatalk-website-docs-doc-1-f4c.json": [
+      27
+    ],
+    "@docusaurus-plugin-content-docs/hackatalk-website-docs-doc-2-bbd.json": [
+      28
+    ],
+    "@docusaurus-plugin-content-docs/hackatalk-website-docs-doc-3-f4e.json": [
+      29
+    ],
+    "@docusaurus-plugin-content-docs/hackatalk-website-docs-mdx-381.json": [
+      30
+    ],
+    "@docusaurus-plugin-content-blog/hackatalk-website-blog-hola-bdf.json": [
+      31
+    ],
+    "@docusaurus-plugin-content-blog/hackatalk-website-blog-hello-world-506.json": [
+      32
+    ],
+    "runtime~main": [
+      20,
+      33
+    ],
+    "@docusaurus-plugin-content-blog/hackatalk-website-blog-tags-tags-515.json": [
+      34
+    ],
+    "@theme/NotFound": [
+      0,
+      35
+    ]
+  },
+  "assets": {
+    "0": {
+      "css": [
+        {
+          "file": "0.beb5263729d2db16c046.css",
+          "hash": "67e3de236489cb3866ee",
+          "publicPath": "/hackatalk-website/0.beb5263729d2db16c046.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "0.725c1cc9917c9ebb1825.js",
+          "hash": "67e3de236489cb3866ee",
+          "publicPath": "/hackatalk-website/0.725c1cc9917c9ebb1825.js"
+        }
+      ]
+    },
+    "1": {
+      "css": [
+        {
+          "file": "1.2d0cefca6f8bbc3f601c.css",
+          "hash": "d76e933a0a234e17141c",
+          "publicPath": "/hackatalk-website/1.2d0cefca6f8bbc3f601c.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "1.8cb0f5bf143b315ca7eb.js",
+          "hash": "d76e933a0a234e17141c",
+          "publicPath": "/hackatalk-website/1.8cb0f5bf143b315ca7eb.js"
+        }
+      ]
+    },
+    "2": {
+      "css": [
+        {
+          "file": "component---site-src-pages-index-jsc-4-f-f99.9f99729bff7f082bd679.css",
+          "hash": "b355ed77e19b2057a5b8",
+          "publicPath": "/hackatalk-website/component---site-src-pages-index-jsc-4-f-f99.9f99729bff7f082bd679.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "component---site-src-pages-index-jsc-4-f-f99.2a6399a66ffac9a02ac7.js",
+          "hash": "b355ed77e19b2057a5b8",
+          "publicPath": "/hackatalk-website/component---site-src-pages-index-jsc-4-f-f99.2a6399a66ffac9a02ac7.js"
+        }
+      ]
+    },
+    "3": {
+      "css": [
+        {
+          "file": "component---theme-blog-list-pagea-6-a-7ba.42d18faa279882580cbb.css",
+          "hash": "11d68e1a5f733eaa951a",
+          "publicPath": "/hackatalk-website/component---theme-blog-list-pagea-6-a-7ba.42d18faa279882580cbb.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "component---theme-blog-list-pagea-6-a-7ba.3afc7cdfa0573c83d5aa.js",
+          "hash": "11d68e1a5f733eaa951a",
+          "publicPath": "/hackatalk-website/component---theme-blog-list-pagea-6-a-7ba.3afc7cdfa0573c83d5aa.js"
+        }
+      ]
+    },
+    "4": {
+      "css": [
+        {
+          "file": "component---theme-blog-post-pageccc-cab.42d18faa279882580cbb.css",
+          "hash": "f08954f6a176fae7c8db",
+          "publicPath": "/hackatalk-website/component---theme-blog-post-pageccc-cab.42d18faa279882580cbb.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "component---theme-blog-post-pageccc-cab.857ead435f42a21f4e89.js",
+          "hash": "f08954f6a176fae7c8db",
+          "publicPath": "/hackatalk-website/component---theme-blog-post-pageccc-cab.857ead435f42a21f4e89.js"
+        }
+      ]
+    },
+    "5": {
+      "js": [
+        {
+          "file": "component---theme-blog-tags-list-page-01-a-d0b.180427c1b56a3f016ad7.js",
+          "hash": "5afad4b24cf8aeebda14",
+          "publicPath": "/hackatalk-website/component---theme-blog-tags-list-page-01-a-d0b.180427c1b56a3f016ad7.js"
+        }
+      ]
+    },
+    "6": {
+      "css": [
+        {
+          "file": "component---theme-blog-tags-posts-page-687-b6c.42d18faa279882580cbb.css",
+          "hash": "6e4a770102b9b46ced33",
+          "publicPath": "/hackatalk-website/component---theme-blog-tags-posts-page-687-b6c.42d18faa279882580cbb.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "component---theme-blog-tags-posts-page-687-b6c.3f29fd46b1ef44c880fd.js",
+          "hash": "6e4a770102b9b46ced33",
+          "publicPath": "/hackatalk-website/component---theme-blog-tags-posts-page-687-b6c.3f29fd46b1ef44c880fd.js"
+        }
+      ]
+    },
+    "7": {
+      "css": [
+        {
+          "file": "component---theme-doc-item-178-a40.de2648345892298aff25.css",
+          "hash": "8aa14249720439be38be",
+          "publicPath": "/hackatalk-website/component---theme-doc-item-178-a40.de2648345892298aff25.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "component---theme-doc-item-178-a40.ac91e2f74dc8f9484bf1.js",
+          "hash": "8aa14249720439be38be",
+          "publicPath": "/hackatalk-website/component---theme-doc-item-178-a40.ac91e2f74dc8f9484bf1.js"
+        }
+      ]
+    },
+    "8": {
+      "css": [
+        {
+          "file": "component---theme-doc-page-1-be-9be.a7dc664af81736e8f518.css",
+          "hash": "9003569ab916a553c45f",
+          "publicPath": "/hackatalk-website/component---theme-doc-page-1-be-9be.a7dc664af81736e8f518.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "component---theme-doc-page-1-be-9be.7f525c94ee327e541c85.js",
+          "hash": "9003569ab916a553c45f",
+          "publicPath": "/hackatalk-website/component---theme-doc-page-1-be-9be.7f525c94ee327e541c85.js"
+        }
+      ]
+    },
+    "9": {
+      "js": [
+        {
+          "file": "content---hackatalk-website-blog-357-b54.9948e8e2029c38761057.js",
+          "hash": "6446691c215e86c52425",
+          "publicPath": "/hackatalk-website/content---hackatalk-website-blog-357-b54.9948e8e2029c38761057.js"
+        }
+      ]
+    },
+    "10": {
+      "js": [
+        {
+          "file": "content---hackatalk-website-blog-8-e-9-7dc.da2eb09e951fd72ed44d.js",
+          "hash": "abc62050dc2577ea855e",
+          "publicPath": "/hackatalk-website/content---hackatalk-website-blog-8-e-9-7dc.da2eb09e951fd72ed44d.js"
+        }
+      ]
+    },
+    "11": {
+      "js": [
+        {
+          "file": "content---hackatalk-website-blog-hello-worldd-61-0f1.aed4c0078b2b9fc18526.js",
+          "hash": "d49d2053bd315f2687c8",
+          "publicPath": "/hackatalk-website/content---hackatalk-website-blog-hello-worldd-61-0f1.aed4c0078b2b9fc18526.js"
+        }
+      ]
+    },
+    "12": {
+      "js": [
+        {
+          "file": "content---hackatalk-website-blog-holabdd-6da.c70e77fe1dcc107ce14b.js",
+          "hash": "00db0d125ab24b6753c0",
+          "publicPath": "/hackatalk-website/content---hackatalk-website-blog-holabdd-6da.c70e77fe1dcc107ce14b.js"
+        }
+      ]
+    },
+    "13": {
+      "js": [
+        {
+          "file": "content---hackatalk-website-blog-welcome-286-228.6cfee201d89fa042bcb5.js",
+          "hash": "7cf8167a48b7393d2e99",
+          "publicPath": "/hackatalk-website/content---hackatalk-website-blog-welcome-286-228.6cfee201d89fa042bcb5.js"
+        }
+      ]
+    },
+    "14": {
+      "js": [
+        {
+          "file": "content---hackatalk-website-blogaf-1-2a2.f17da88a6b8da15a3ff9.js",
+          "hash": "dd0fc0ab7fb2049c208a",
+          "publicPath": "/hackatalk-website/content---hackatalk-website-blogaf-1-2a2.f17da88a6b8da15a3ff9.js"
+        }
+      ]
+    },
+    "15": {
+      "js": [
+        {
+          "file": "content---hackatalk-website-docs-doc-1-b-2-f-c5d.c7e2763d20e24aec9f8a.js",
+          "hash": "9ade02a573b2528402d2",
+          "publicPath": "/hackatalk-website/content---hackatalk-website-docs-doc-1-b-2-f-c5d.c7e2763d20e24aec9f8a.js"
+        }
+      ]
+    },
+    "16": {
+      "js": [
+        {
+          "file": "content---hackatalk-website-docs-doc-2-df-3-823.72b9546507a0f8d75f17.js",
+          "hash": "fd29aef4f8586d348618",
+          "publicPath": "/hackatalk-website/content---hackatalk-website-docs-doc-2-df-3-823.72b9546507a0f8d75f17.js"
+        }
+      ]
+    },
+    "17": {
+      "js": [
+        {
+          "file": "content---hackatalk-website-docs-doc-3616-3c3.f2e1e40c3f60abcac887.js",
+          "hash": "39b2e7a2aa9fa1c05dd4",
+          "publicPath": "/hackatalk-website/content---hackatalk-website-docs-doc-3616-3c3.f2e1e40c3f60abcac887.js"
+        }
+      ]
+    },
+    "18": {
+      "js": [
+        {
+          "file": "content---hackatalk-website-docs-mdxce-3-77c.7ca75efa7cd274ab3ce5.js",
+          "hash": "f2e132423afc34973f7f",
+          "publicPath": "/hackatalk-website/content---hackatalk-website-docs-mdxce-3-77c.7ca75efa7cd274ab3ce5.js"
+        }
+      ]
+    },
+    "19": {
+      "js": [
+        {
+          "file": "docsMetadata---hackatalk-website-docsb-17-387.030ca2064a845dee2322.js",
+          "hash": "7e06b328f4e20ef4665b",
+          "publicPath": "/hackatalk-website/docsMetadata---hackatalk-website-docsb-17-387.030ca2064a845dee2322.js"
+        }
+      ]
+    },
+    "20": {
+      "css": [
+        {
+          "file": "main.09cfe5034309be4baf90.css",
+          "hash": "f51f30899682735a4d86",
+          "publicPath": "/hackatalk-website/main.09cfe5034309be4baf90.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "main.f471736e091dabc30fad.js",
+          "hash": "f51f30899682735a4d86",
+          "publicPath": "/hackatalk-website/main.f471736e091dabc30fad.js"
+        }
+      ]
+    },
+    "21": {
+      "js": [
+        {
+          "file": "metadata---hackatalk-website-blog-182-366.1377ab2b6f31240c63aa.js",
+          "hash": "eb946e606f05243b3e78",
+          "publicPath": "/hackatalk-website/metadata---hackatalk-website-blog-182-366.1377ab2b6f31240c63aa.js"
+        }
+      ]
+    },
+    "22": {
+      "js": [
+        {
+          "file": "metadata---hackatalk-website-blog-tags-docusauruscdd-bba.13802b1de1cc0b1ebbbc.js",
+          "hash": "65b2c8c60c2456b2e72e",
+          "publicPath": "/hackatalk-website/metadata---hackatalk-website-blog-tags-docusauruscdd-bba.13802b1de1cc0b1ebbbc.js"
+        }
+      ]
+    },
+    "23": {
+      "js": [
+        {
+          "file": "metadata---hackatalk-website-blog-tags-facebooka-14-eef.629611e9ab38a489d313.js",
+          "hash": "d5e0ab6446262554aaf5",
+          "publicPath": "/hackatalk-website/metadata---hackatalk-website-blog-tags-facebooka-14-eef.629611e9ab38a489d313.js"
+        }
+      ]
+    },
+    "24": {
+      "js": [
+        {
+          "file": "metadata---hackatalk-website-blog-tags-hello-401-36e.427fcb1ab71205f29a53.js",
+          "hash": "feb9574dc34cc43f2ca3",
+          "publicPath": "/hackatalk-website/metadata---hackatalk-website-blog-tags-hello-401-36e.427fcb1ab71205f29a53.js"
+        }
+      ]
+    },
+    "25": {
+      "js": [
+        {
+          "file": "metadata---hackatalk-website-blog-tags-hola-27-f-835.b5061fcf9775864ac0f2.js",
+          "hash": "2997b6a04442e40fd75e",
+          "publicPath": "/hackatalk-website/metadata---hackatalk-website-blog-tags-hola-27-f-835.b5061fcf9775864ac0f2.js"
+        }
+      ]
+    },
+    "26": {
+      "js": [
+        {
+          "file": "metadata---hackatalk-website-blog-welcomed-37-1aa.959d12846dee8a8ccfc7.js",
+          "hash": "a52410343ab9c09e8030",
+          "publicPath": "/hackatalk-website/metadata---hackatalk-website-blog-welcomed-37-1aa.959d12846dee8a8ccfc7.js"
+        }
+      ]
+    },
+    "27": {
+      "js": [
+        {
+          "file": "metadata---hackatalk-website-docs-doc-1-f-78-aef.ccd52619866eba828c31.js",
+          "hash": "0e4d76c5765e168bb9d7",
+          "publicPath": "/hackatalk-website/metadata---hackatalk-website-docs-doc-1-f-78-aef.ccd52619866eba828c31.js"
+        }
+      ]
+    },
+    "28": {
+      "js": [
+        {
+          "file": "metadata---hackatalk-website-docs-doc-2-c-47-c77.3f6931f5384ec64066a7.js",
+          "hash": "ff14e0914deff4e73b6c",
+          "publicPath": "/hackatalk-website/metadata---hackatalk-website-docs-doc-2-c-47-c77.3f6931f5384ec64066a7.js"
+        }
+      ]
+    },
+    "29": {
+      "js": [
+        {
+          "file": "metadata---hackatalk-website-docs-doc-3224-c19.953081249af0a2dbf4b3.js",
+          "hash": "5ea8e44f161601419ae9",
+          "publicPath": "/hackatalk-website/metadata---hackatalk-website-docs-doc-3224-c19.953081249af0a2dbf4b3.js"
+        }
+      ]
+    },
+    "30": {
+      "js": [
+        {
+          "file": "metadata---hackatalk-website-docs-mdx-74-b-f48.48710c7a760dd7e4add3.js",
+          "hash": "975552f5881e2ee9ca90",
+          "publicPath": "/hackatalk-website/metadata---hackatalk-website-docs-mdx-74-b-f48.48710c7a760dd7e4add3.js"
+        }
+      ]
+    },
+    "31": {
+      "js": [
+        {
+          "file": "nextItem---hackatalk-website-blog-hello-world-51-b-0b6.ed535afe98c1a3ac5206.js",
+          "hash": "a5fcec8ec1a47eaf0c9b",
+          "publicPath": "/hackatalk-website/nextItem---hackatalk-website-blog-hello-world-51-b-0b6.ed535afe98c1a3ac5206.js"
+        }
+      ]
+    },
+    "32": {
+      "js": [
+        {
+          "file": "nextItem---hackatalk-website-blog-welcome-1-bd-108.4e149e2dd326ce84d120.js",
+          "hash": "e945e0b7ce6ea2b2627b",
+          "publicPath": "/hackatalk-website/nextItem---hackatalk-website-blog-welcome-1-bd-108.4e149e2dd326ce84d120.js"
+        }
+      ]
+    },
+    "33": {
+      "js": [
+        {
+          "file": "runtime~main.b4acfa8073c028ebb207.js",
+          "hash": "6cee47d531d9b950aaf2",
+          "publicPath": "/hackatalk-website/runtime~main.b4acfa8073c028ebb207.js"
+        }
+      ]
+    },
+    "34": {
+      "js": [
+        {
+          "file": "tags---hackatalk-website-blog-tagsb-98-73b.ed8026f33933949665bb.js",
+          "hash": "01ff6f8129ab1d2b6f87",
+          "publicPath": "/hackatalk-website/tags---hackatalk-website-blog-tagsb-98-73b.ed8026f33933949665bb.js"
+        }
+      ]
+    },
+    "35": {
+      "js": [
+        {
+          "file": "35.2cf16678a645a4eabe07.js",
+          "hash": "b26ddf69b671a92f9d53",
+          "publicPath": "/hackatalk-website/35.2cf16678a645a4eabe07.js"
+        }
+      ]
+    }
+  }
+}
