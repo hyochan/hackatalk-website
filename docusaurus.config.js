@@ -8,7 +8,7 @@
 module.exports = {
   title: 'HackaTalk',
   tagline: 'A website for testing',
-  url: 'https://dooboolab.github.io',
+  url: 'https://website.hackatalk.dev',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'dooboolab',
@@ -21,9 +21,9 @@ module.exports = {
         src: 'img/logo.png',
       },
       links: [
-        {to: 'docs/doc2', label: 'Component', position: 'left'},
-        {to: 'docs/doc1', label: 'API', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: 'docs/doc2', label: 'Component', position: 'left' },
+        { to: 'docs/doc1', label: 'API', position: 'left' },
+        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/dooboolab/hackatalk-mobile',
           label: 'GitHub',
