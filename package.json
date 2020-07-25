@@ -13,10 +13,10 @@
     "@docusaurus/core": "^2.0.0-alpha.49",
     "@docusaurus/preset-classic": "^2.0.0-alpha.49",
     "@mdx-js/react": "^1.5.8",
+    "classnames": "^2.2.6",
     "clsx": "^1.1.1",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "classnames": "^2.2.6"
+    "react-dom": "^16.8.4"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.0.0-alpha.51",
