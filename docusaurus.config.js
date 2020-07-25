@@ -20,7 +20,7 @@ module.exports = {
         alt: 'HackaTalk',
         src: 'img/logo.png',
       },
-      links: [
+      items: [
         { to: 'docs/doc2', label: 'Component', position: 'left' },
         { to: 'docs/doc1', label: 'API', position: 'left' },
         { to: 'blog', label: 'Blog', position: 'left' },

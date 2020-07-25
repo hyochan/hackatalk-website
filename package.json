@@ -10,11 +10,28 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.31",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.31",
-    "classnames": "^2.2.6",
+    "@docusaurus/core": "^2.0.0-alpha.49",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.49",
+    "@mdx-js/react": "^1.5.8",
+    "clsx": "^1.1.1",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "classnames": "^2.2.6"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "^2.0.0-alpha.51",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-header": "^3.0.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "prettier": "^2.0.2",
+    "stylelint": "^13.2.1",
+    "typescript": "^3.9.7"
   },
   "browserslist": {
     "production": [
