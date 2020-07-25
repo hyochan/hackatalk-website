@@ -7,7 +7,14 @@
 
 module.exports = {
   docs: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    Client: [
+      'client-doc1',
+      'client-doc2',
+      'client-doc3',
+    ],
+    Server: [
+      'server-doc1',
+    ],
+    StackShare: ['stackshare'],
   },
 };

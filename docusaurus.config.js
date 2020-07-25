@@ -7,7 +7,7 @@
 
 module.exports = {
   title: 'HackaTalk',
-  tagline: 'A website for testing',
+  tagline: 'Opensource chat app that works on iOS, android and web',
   url: 'https://website.hackatalk.dev',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -21,11 +21,11 @@ module.exports = {
         src: 'img/logo.png',
       },
       items: [
-        { to: 'docs/doc2', label: 'Component', position: 'left' },
-        { to: 'docs/doc1', label: 'API', position: 'left' },
+        { to: 'docs/client-doc1', label: 'Client', position: 'left' },
+        { to: 'docs/server-doc1', label: 'Server', position: 'left' },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/dooboolab/hackatalk-mobile',
+          href: 'https://github.com/dooboolab/hackatalk',
           label: 'GitHub',
           position: 'right',
         },
@@ -38,8 +38,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Docs',
-              to: 'docs/doc1',
+              label: 'Client',
+              to: 'client-doc1',
+            },
+            {
+              label: 'Server',
+              to: 'server-doc1',
             },
           ],
         },
@@ -57,7 +61,7 @@ module.exports = {
           items: [
             {
               label: 'Medium',
-              to: 'blog',
+              href: 'https://medium.com/dooboolab',
             },
           ],
         },
