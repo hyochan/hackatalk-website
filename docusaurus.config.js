@@ -39,11 +39,11 @@ module.exports = {
           items: [
             {
               label: 'Client',
-              to: 'client-doc1',
+              to: 'docs/client-doc1',
             },
             {
               label: 'Server',
-              to: 'server-doc1',
+              to: 'docs/server-doc1',
             },
           ],
         },

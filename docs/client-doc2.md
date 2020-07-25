@@ -16,7 +16,7 @@ To create additional components to `HackaTalk`, you can easily run `dooboo scree
 
 * You can see how easily you can create sample screens and tests files.
 
-## Components
+## Types
 
 We are organizing our main components into three different characteristcs which are `navigation`, `screen`, and `shared`.
 

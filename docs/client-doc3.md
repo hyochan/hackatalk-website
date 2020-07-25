@@ -1,7 +1,7 @@
 ---
 id: client-doc3
-title: How to integrate apis
-sidebar_label: Calling backend apis
+title: Integrate with backend
+sidebar_label: Integrate with backend
 ---
 
 Our server is hosted on [azure websites](https://hackatalk.azurewebsites.net) and we are mainly using graphql. You can checkout our graphql resolver in [playground](https://hackatalk.azurewebsites.net/graphql). Our development server is opened for everyone who wants to understand how `HackaTalk` works.
