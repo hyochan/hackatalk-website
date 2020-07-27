@@ -15,32 +15,33 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>StackShare</>,
+    imageUrl: 'img/svg_hackatalk1.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We would like to share our development stacks to all of you out there.
+        Come and join to work with us.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>Grow Together</>,
+    imageUrl: 'img/svg_hackatalk2.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Let us communicate to improve ourselves in various areas. This can be your
+        working skills as well as your daily skills such as communication.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Powered by dooboo-ui</>,
+    imageUrl: 'img/svg_hackatalk3.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Our project heavily depends on <a href="https://github.com/dooboolab/dooboo-ui">dooboo-ui</a>,
+        another open source project we are currently working on.
+        By participating in Halkatalk, you will learn to work with various opensource projects.
       </>
     ),
   },

@@ -1,6 +1,6 @@
 ---
 id: stackshare
-title: Sharing stacks
+title: Contributing
 ---
 
-Our developement stacks are introducced in [Contrinbuting](https://github.com/dooboolab/hackatalk/blob/master/CONTRIBUTING.md).
+Our developement stacks are introduced in [Contrinbuting](https://github.com/dooboolab/hackatalk/blob/master/CONTRIBUTING.md).
