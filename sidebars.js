@@ -8,11 +8,13 @@
 module.exports = {
   docs: {
     Client: [
+      'client-overview',
       'client-doc1',
       'client-doc2',
       'client-doc3',
     ],
     Server: [
+      'server-overview',
       'server-doc1',
     ],
     StackShare: ['stackshare'],
