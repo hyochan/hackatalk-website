@@ -1,6 +1,6 @@
 ---
 id: server-doc1
-title: Sepecification
+title: Specification
 sidebar_label: Specification
 ---
 
