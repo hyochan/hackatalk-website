@@ -6,7 +6,7 @@ sidebar_label: Pagination
 
 One of the challenges when using graphql is [pagination](https://graphql.org/learn/pagination). Facebook's [relay cursor pagination](https://relay.dev/graphql/connections.htm) seems currently the best solution on implementing [infinite scroll view](https://github.com/pronebird/UIScrollView-InfiniteScroll) which we normally see in many mobile apps.
 
-<img src="images/offset-pagination.png" width="400"/>
+<img src="https://user-images.githubusercontent.com/27461460/89128314-dad82900-d52f-11ea-86b4-0b54dbba2860.png" width="400"/>
 
 Altough it has some limitation when we face offset pagination senario like shown in above image, `relay cursor pagination` is currently most ideal way to support mobile's infinite scrollview.
 

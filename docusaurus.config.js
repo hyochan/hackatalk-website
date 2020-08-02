@@ -13,6 +13,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'dooboolab',
   projectName: 'hackatalk-website',
+  onBrokenLinks: 'ignore',
   themeConfig: {
     navbar: {
       title: 'HackaTalk',
