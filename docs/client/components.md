@@ -1,5 +1,5 @@
 ---
-id: client-doc2
+id: components
 title: Components
 sidebar_label: Components
 ---

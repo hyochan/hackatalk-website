@@ -1,5 +1,5 @@
 ---
-id: client-doc3
+id: integrate-with-backend
 title: Integrate with backend
 sidebar_label: Integrate with backend
 ---

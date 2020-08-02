@@ -7,16 +7,22 @@
 
 module.exports = {
   docs: {
+    Development: [
+      'development/contributing',
+      'development/design',
+      'development/authentication',
+      'development/features',
+      'development/pagination',
+    ],
     Client: [
-      'client-overview',
-      'client-doc1',
-      'client-doc2',
-      'client-doc3',
+      'client/overview',
+      'client/installation',
+      'client/components',
+      'client/integrate-with-backend',
     ],
     Server: [
-      'server-overview',
-      'server-doc1',
+      'server/overview',
+      'server/specification',
     ],
-    StackShare: ['stackshare'],
   },
 };

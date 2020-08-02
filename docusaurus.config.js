@@ -21,8 +21,7 @@ module.exports = {
         src: 'img/logo.png',
       },
       items: [
-        { to: 'docs/client-doc1', label: 'Client', position: 'left' },
-        { to: 'docs/server-doc1', label: 'Server', position: 'left' },
+        { to: 'docs/development/contributing', label: 'Development', position: 'left' },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/dooboolab/hackatalk',
@@ -38,12 +37,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Client',
-              to: 'docs/client-doc1',
-            },
-            {
-              label: 'Server',
-              to: 'docs/server-doc1',
+              label: 'Development',
+              to: 'docs',
             },
           ],
         },
