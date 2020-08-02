@@ -35,9 +35,7 @@ The `User` that creates a `Channel` is the `Owner`. The `owner` manages the `rol
 
 ### Updating or deleting Channel
 
-Only the `Role` with the `owner` can update the channels. We follow the [soft delete](https://guides.cfwheels.org/docs/soft-delete) senario for main models which are `User` and `Channel`. Other sub models that can be refered as `cascade` will not follow the `soft deletion`.
-
-<br/>
+Only the `Role` with the `owner` can update the channels. We follow the [soft delete](https://guides.cfwheels.org/docs/soft-delete) senario for main models which are `User` and `Channel`. Other sub models that can be refered as `cascade` will not follow the `soft deletion`.<br/>
 
 ## Adding friends to your chat app
 
