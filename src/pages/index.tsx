@@ -19,8 +19,8 @@ const features = [
     imageUrl: 'img/svg_hackatalk1.svg',
     description: (
       <>
-        We would like to share our development stacks to all of you out there.
-        Come and join to work with us.
+        We want to foster a culture that nutures code sharing and collaboration.
+        We would like to share our development stacks with all of you out there and grow together.
       </>
     ),
   },
@@ -29,8 +29,8 @@ const features = [
     imageUrl: 'img/svg_hackatalk2.svg',
     description: (
       <>
-        Let us communicate to improve ourselves in various areas. This can be your
-        working skills as well as your daily skills such as communication.
+        We believe that communication is essential for efficient teamwork and 
+        group development. Feel free to share your ideas with us!
       </>
     ),
   },
@@ -41,7 +41,8 @@ const features = [
       <>
         Our project heavily depends on <a href="https://github.com/dooboolab/dooboo-ui">dooboo-ui</a>,
         another open source project we are currently working on.
-        By participating in Halkatalk, you will learn to work with various opensource projects.
+        By participating in Halkatalk, you will learn to work with various opensource projects and
+        help foster an open-source culture.
       </>
     ),
   },
