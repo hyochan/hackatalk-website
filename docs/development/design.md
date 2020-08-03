@@ -6,7 +6,7 @@ sidebar_label: Design
 
 <img src="https://user-images.githubusercontent.com/27461460/89128313-da3f9280-d52f-11ea-9e90-989dcaaca980.png" width="500"/>
 
-Our design is opened for all developers around the work. This work is done in [Figma](https://www.figma.com) by the wonderful designer Megun Kim :tada:.
+Our design is open for all developers around the work. This work is done in [Figma](https://www.figma.com) by the wonderful designer Megun Kim :tada:.
 
 ## Dark mode
 

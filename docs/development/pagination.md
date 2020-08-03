@@ -8,11 +8,11 @@ One of the challenges when using graphql is [pagination](https://graphql.org/lea
 
 <img src="https://user-images.githubusercontent.com/27461460/89128314-dad82900-d52f-11ea-86b4-0b54dbba2860.png" width="400"/>
 
-Altough it has some limitation when we face offset pagination senario like shown in above image, `relay cursor pagination` is currently most ideal way to support mobile's infinite scrollview.
+Although it has some limitations when we face offset pagination scenario as above, `relay cursor pagination` is currently the most ideal way to support mobile's infinite scrollview.
 
 ### Server
 
-Previously, implementing `relay-cursor-pagination` with orm like [sequelize](https://sequelize.org) was bit complicating and here is how we've done in [medium post](https://medium.com/graphql-seoul/graphql-pagination-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-relays-cursor-based-connection-pattern-72ab0daceed4) previously.
+Previously, implementing `relay-cursor-pagination` with orm like [sequelize](https://sequelize.org) was a bit complicated. Here's how we've it done in [medium post](https://medium.com/graphql-seoul/graphql-pagination-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-relays-cursor-based-connection-pattern-72ab0daceed4) previously.
 
 However, we've migrated to [primsa2](prisma.io) and [nexus](https://www.nexusjs.org) so this becomes much easier. `Nexus` even supports [connection plugin](https://nexusjs.org/components-standalone/schema/plugins/connection#connection-plugin) and we'll be using it in our server.
 

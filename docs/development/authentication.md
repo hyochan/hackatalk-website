@@ -4,40 +4,40 @@ title: Authentication
 sidebar_label: Authentication
 ---
 
-We mainly use [json web token](https://jwt.io) to verify our user. This is very efficient to handle multi-device(phone, tablet, pc) users.
+We mainly use [json web token](https://jwt.io) to verify our user. This is very efficient in handling multi-device(phone, tablet, pc) users.
 
 ## Resolvers
 
 ### Mutations
 
-Above are mutations you can find 
+Below are the mutations you can find in our development server.
 
 #### Register user
-You can use `signUp` mutation to registers user to `HackaTalk` and get user info. Note that the token is not delivered directly just by `signUp` mutation. User needs to `sign in` in order to achieve the `jwt token`.
+You can use the `signUp` mutation to register users to `HackaTalk` and get user info. Note that the token is not delivered directly just by the `signUp` mutation. Users need to `sign in` in order to achieve the `jwt token`.
 
 #### Sign in user
-Users sign in into our application `HacakTalk` and this returns `AuthPayload` which we've defined. This returns `user` and `token` field. With the `token`, you should put that into `header` like below so that the server knows that user is signed in.
+Users sign in into `HackaTalk` and this returns `AuthPayload` which we've defined. This returns a `user` and `token` field. Put the `token` into the `header` as below so that the server knows the user is signed in. 
 ```
 {
    "authorization: "{returned_user_token}"
 }
 ```
 
-There are 2 types if signing in currently.
+There are 2 types of ways to sign in.
 
 1. Sign in with email
 
-   `signInEmail` mutation let user of `HackaTalk` sign in with `email` and `password`. However, if the `user`'s email is not `verified`, the client app will direct user to verify email. In this case, you should [verify user's email](#verify-email).
+   `signInEmail` mutation lets users of `HackaTalk` sign in with an `email` and `password`. However, if the `user`'s email is not `verified`, the client's app will direct users to their verify email. In this case, you should [verify user's email](#verify-email).
 
-2. Sign in with social account
+2. Sign in with a social account
 
-   We provide signing in user with social account. We are currently supporting below.
+   We provide a social account sign-in. We are currently supporting below.
 
    * Facebook - `signInWithFacebook`
    * Apple - `signInWithApple`
    * Google - `signInWithGoogle`
 
-   > We are not providing any `redirect` url approach like in [facebook login flow](https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow). Social authentication providers use to redirect url after user's authentication completes. If we direct this approach in `HackaTalk`, we should open up the new browser for mobile applications. We don't like this workflow so we want each client to receive social provider's `access_token` by themselves and then request to our server with that `access_token`. Therefore our `schema` is designed as below.
+   > We are not providing any `redirect` url approach like in [facebook login flow](https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow). Social authentication providers redirect the url after user's authentication completes. If we use this approach in `HackaTalk`, we should have to open up a new browser for mobile applications. We don't like this workflow so instead , we will we require each client to receive a social provider's `access_token` by themselves and then send a request to our server with that `access_token`. Our `schema` is designed as below.
 
    ```graphql
    signInWithFacebook(accessToken: String!): AuthPayload!
@@ -49,7 +49,7 @@ There are 2 types if signing in currently.
 
 #### Verify email
 
-   We are verifying user's email with `sendVerification` mutation. By using this mutation query, we'll send our email to customer via [SendGrid](https://sendgrid.com) api. We are not using `gmail` in this case since it has limitation.
+   We are verifying user's email with the `sendVerification` mutation. By using this mutation query, we'll send our email to customer via [SendGrid](https://sendgrid.com) api. We are not using `gmail` in this case since it has limitations.
 
    ```graphql
    sendVerification(email: String!): Boolean!
@@ -57,7 +57,7 @@ There are 2 types if signing in currently.
 
 #### Resetting password
 
-   User may not remember his or her password. In this case, we provide query to reset password via link sending to user's email address.
+   Users may not remember his or her password. In this case, we will provide a query to reset their password via the link sent to user's email address.
 
    ```graphql
    findPassword(email: String!): Boolean!
@@ -67,7 +67,7 @@ There are 2 types if signing in currently.
 
 #### Change password
 
-   User can change password only if the user is signed in. This should be done somewhere in client's user profile page.
+   Users can change their password only if the user is signed in. This should be done somewhere in client's user profile page.
 
    ```graphql
    changeEmailPassword(password: String!, newPassword: String!): Boolean!
@@ -83,7 +83,7 @@ There are 2 types if signing in currently.
    me: User!
    ```
 
-   `me` query is used mostly for `authentication` like when the user is signed in after app finishes loading. If the correct user's [jwt token](https://jwt.io) is not provided, it will return error and the `client's` request will be failed. This is how client knows if the user is signed in. Therefore, this query does not need any extra input arguments.
+   `me` query is used mostly for `authentication` like when the user is signed in after app finishes loading. If the correct user's [jwt token](https://jwt.io) is not provided, it will return an error and the `client's` request will fail. This is how the client knows that the user is signed in. Therefore, this query does not need any extra input arguments.
 
 ### Protecting our queries
 
@@ -91,4 +91,4 @@ There are 2 types if signing in currently.
 
 The [graphql-shield](https://github.com/maticzav/graphql-shield) is wonderful permission management library which can be used in [graphql-middlewares](https://github.com/prisma-labs/graphql-middleware).
 
-This is somewhat similar to [firebase security rules](https://firebase.google.com/docs/rules) in some sense that protect query logically. This is defined in [permissions/index.ts](https://github.com/dooboolab/hackatalk/blob/master/server/src/permissions/index.ts) file in our `server`.
+This is somewhat similar to [firebase security rules](https://firebase.google.com/docs/rules) in some sense that it protects queries logically. This is defined in [permissions/index.ts](https://github.com/dooboolab/hackatalk/blob/master/server/src/permissions/index.ts) file in our `server`.
