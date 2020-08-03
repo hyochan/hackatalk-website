@@ -19,7 +19,7 @@ const features = [
     imageUrl: 'img/svg_hackatalk1.svg',
     description: (
       <>
-        We would like to share our development stacks to all of you out there.
+        We would like to share our development stacks with all of you out there.
         Come and join to work with us.
       </>
     ),
