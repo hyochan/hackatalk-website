@@ -19,8 +19,13 @@ const features = [
     imageUrl: 'img/svg_hackatalk1.svg',
     description: (
       <>
+<<<<<<< HEAD
         We want to foster a culture that nutures code sharing and collaboration.
         We would like to share our development stacks with all of you out there and grow together.
+=======
+        We would like to share our development stacks with all of you out there.
+        Come and join to work with us.
+>>>>>>> f65ad6d... testing PR
       </>
     ),
   },
