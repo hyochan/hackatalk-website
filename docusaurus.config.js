@@ -39,7 +39,7 @@ module.exports = {
           items: [
             {
               label: 'Development',
-              to: 'docs',
+              to: 'docs/development/contributing',
             },
           ],
         },
