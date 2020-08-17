@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="generator" content="Docusaurus v2.0.0-alpha.59">
+<title data-react-helmet="true">Channel | HackaTalk</title><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:title" content="Channel | HackaTalk"><meta data-react-helmet="true" name="description" content="Channel(aka Chatroom) is an important concept when building chat apps. Channel can aggregate users and make them prepare chattings. There can exist many relational models in-between User and Channel. This way makes life easier for a developer who wants to add complex business logic in their chat application."><meta data-react-helmet="true" property="og:description" content="Channel(aka Chatroom) is an important concept when building chat apps. Channel can aggregate users and make them prepare chattings. There can exist many relational models in-between User and Channel. This way makes life easier for a developer who wants to add complex business logic in their chat application."><meta data-react-helmet="true" property="og:url" content="https://website.hackatalk.dev/docs/server/channel"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://website.hackatalk.dev/docs/server/channel"><link rel="stylesheet" href="/styles.bfe0fb95.css">
+<link rel="preload" href="/styles.c2caf380.js" as="script">
+<link rel="preload" href="/runtime~main.afd2e2ba.js" as="script">
+<link rel="preload" href="/main.e7e17f71.js" as="script">
+<link rel="preload" href="/1.da27f2db.js" as="script">
+<link rel="preload" href="/2.4c287682.js" as="script">
+<link rel="preload" href="/48.99e1f94c.js" as="script">
+<link rel="preload" href="/49.e4acb148.js" as="script">
+<link rel="preload" href="/20ac7829.dd1fb4bc.js" as="script">
+<link rel="preload" href="/17896441.390436a5.js" as="script">
+<link rel="preload" href="/c5f91363.ce439f06.js" as="script">
+</head>
+<body>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
+<nav class="navbar navbar--light navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><div aria-label="Navigation bar toggle" class="navbar__toggle" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></div><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/logo.png" alt="HackaTalk"><strong class="navbar__title">HackaTalk</strong></a><a class="navbar__item navbar__link" href="/docs/development/contributing">Development</a><a class="navbar__item navbar__link" href="/blog">Blog</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/dooboolab/hackatalk" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub</a><div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_2aTZ"><div class="react-toggle-track"><div class="react-toggle-track-check"><span class="toggle_BsTx moon_6SPT"></span></div><div class="react-toggle-track-x"><span class="toggle_BsTx sun_152_"></span></div></div><div class="react-toggle-thumb"></div><input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="navbar-sidebar"><div class="navbar-sidebar__brand"><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/logo.png" alt="HackaTalk"><strong class="navbar__title">HackaTalk</strong></a></div><div class="navbar-sidebar__items"><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" href="/docs/development/contributing">Development</a></li><li class="menu__list-item"><a class="menu__link" href="/blog">Blog</a></li><li class="menu__list-item"><a href="https://github.com/dooboolab/hackatalk" target="_blank" rel="noopener noreferrer" class="menu__link">GitHub</a></li></ul></div></div></div></nav><div class="main-wrapper"><div class="docPage_2gpo"><div class="docSidebarContainer_3_JD" role="complementary"><div class="sidebar_2urC"><div class="menu menu--responsive menu_5FrY"><button aria-label="Open Menu" aria-haspopup="true" class="button button--secondary button--sm menu__button" type="button"><svg aria-label="Menu" class="sidebarMenuIcon_Dm3K" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 32 32" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><ul class="menu__list"><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!">Development</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/docs/development/contributing">Contributing</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/docs/development/design">Design</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/docs/development/authentication">Authentication</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/docs/development/features">Features</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/docs/development/pagination">Pagination</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!">Client</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/docs/client/overview">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/docs/client/installation">Installation</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/docs/client/components">Components</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/docs/client/integrate-with-backend">Integrate with backend</a></li></ul></li><li class="menu__list-item"><a class="menu__link menu__link--sublist menu__link--active" href="#!">Server</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/docs/server/overview">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/docs/server/specification">Specification</a></li><li class="menu__list-item"><a aria-current="page" class="menu__link menu__link--active active" tabindex="0" href="/docs/server/channel">Channel</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/docs/server/membership">Membership</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/docs/server/message">Message</a></li></ul></li></ul></div></div></div><main class="docMainContainer_3EyW"><div class="container padding-vert--lg docItemWrapper_1EkI"><div class="row"><div class="col docItemCol_2ASc"><div class="docItemContainer_3QWW"><article><header><h1 class="docTitle_1Lrw">Channel</h1></header><div class="markdown"><p><code>Channel</code>(aka <code>Chatroom</code>) is an important concept when building chat apps. <code>Channel</code> can aggregate users and make them prepare chattings. There can exist many relational models in-between <code>User</code> and <code>Channel</code>. This way makes life easier for a developer who wants to add complex business logic in their chat application.</p><p>Say you want to make the user grant permission to other users in the <code>Channel</code>, then we can create <code>Membership</code> relation in between. Another scenario is when the user wants to manage the sound(vibrate, silent, etc) of each channel, we can create <code>Sound</code> relation. Like so, we can add more relations in between to handle more complex logic.</p><p>Currently, we&#x27;ve managed to have the above scenario in one relation which is <code>Membership</code>. </p><h2 id="entity-design">Entity Design</h2><img src="https://user-images.githubusercontent.com/27461460/88914167-2de67d80-d29d-11ea-8230-6762a4cfe1b4.png" width="400"><p>The decision was made in our first proposal in designing <a href="https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model">Entity Relation Model</a>.</p><ul><li>Note that the above <a href="https://creately.com/blog/diagrams/uml-diagram-types-examples">UML</a> diagram is not recent and this is keep
+changing as we continue implementing cool features.</li></ul><p>As you can see in the <code>image</code>, there are <code>userAlert</code>, <code>userMode</code> as well as <code>type</code> of membership which determines what type of permissions user has in the <code>Channel</code>. We usually call this a <a href="https://en.wikipedia.org/wiki/Single_Table_Inheritance">single table inheritance</a> which many models exist in a table. Therefore, we are writing this so that the contributors won&#x27;t get confused.</p><h2 id="creating-channel">Creating channel</h2><p>Many developers may have tried similar implementations since there are millions of chat apps around the world. This is however not that simple when creating a channel with a unique number of users.</p><p>In most <a href="https://en.wikipedia.org/wiki/Object-relational_mapping">ORM</a>, they have the <a href="https://stackoverflow.com/questions/42719750/sequelize-relation-with-where-in-array?rq=1">in operator as in stackoverflow</a>.</p><p>Developers usually use this to find if subarray matches the query. This is also possible with <a href="https://www.prisma.io/docs/reference/tools-and-interfaces/prisma-client/filtering#filter-on-related-records">prisma filtering</a> in a similar way. However, <code>in</code> operator will return all the rows of the query when the subarray matches.</p><img src="https://user-images.githubusercontent.com/27461460/90379570-da09d000-e0b5-11ea-8215-df2828108b58.png" width="200"><p>As in the image, when you query for users of <code>tom</code> and <code>jerry</code>, it will search all other arrays in which subarray exists. A similar discussion could be found on <a href="https://v1.prisma.io/forum/t/query-for-exact-match-of-array-of-ids/5700/17">Prisma1 forum</a>.</p><p>We resolved above problem by checking its length. Currently, we&#x27;d also want to find out any better solution over the below code.</p><pre><code class="language-ts">const findChannelWithUserIds = async () =&gt; {
+  const channels = await ctx.prisma.channel.findMany({
+    include: {
+      membership: {
+        select: {
+          userId: true,
+          membershipType: true,
+        },
+      },
+    },
+    where: {
+      membership: {
+        every: {
+          userId: { in: [userId, ...userIds] },
+        },
+      },
+    },
+  });
+
+  const totalUsers = userIds.length + 1; // +1 for auth user
+
+  let existingChannel: Channel;
+
+  for (const channel of channels) {
+    if (totalUsers === channel.membership.length) {
+      existingChannel = channel;
+      break;
+    }
+  }
+
+  return existingChannel;
+};
+
+const existingChannel = await findChannelWithUserIds();
+</code></pre><p>Therefore, we could manage the <code>unique</code> channel with unique array of userIds.</p><h2 id="creating-channel-with-message">Creating channel with message</h2><p>It is also possible to create channel with the message.</p><pre><code class="language-ts">message &amp;&amp; await createMessage(message, existingChannel.id);
+</code></pre><p>We check if the message argument is not null then call <code>createMessage</code>.</p><pre><code class="language-ts">const createMessage = (
+  { text, messageType = MessageType.text, fileUrls = [], imageUrls = [] } : Message,
+  channelId: string,
+) =&gt; ctx.prisma.message.create({
+  data: {
+    text,
+    messageType,
+    fileUrls: { set: fileUrls },
+    imageUrls: { set: imageUrls },
+    channel: { connect: { id: channelId } },
+    sender: { connect: { id: userId } },
+  },
+});
+</code></pre><ul><li>Currently, we are facing issues in redefining types if <code>Message</code> since we can&#x27;t get it from anywhere (08/17/2020).</li></ul><h2 id="types-of-channel">Types of channel</h2><p>There are two types of channel defined in <code>ChannelType</code> which are <code>private</code> and <code>public</code>.</p><p>The <code>public</code> channel can have a duplicate array of <code>users</code> and they can be created continuously while the <code>private</code> channel needs unique users.</p><ul><li>By passing array of <code>userIds</code> in <code>ChannelCreateInput</code>, users will grant the <code>Permission</code> to newly created channel. If the channel is <code>public</code>, there will be a different <code>permissionType</code> for each user and one of them will grant a <code>owner</code> permission.</li></ul><h2 id="leaving-the-channel">Leaving the channel</h2><p>The <code>isVisible</code> field exists in <code>Membership</code> model for <code>private</code> channel when the user wants to leave the channel. It will be set to <code>false</code> and this will affect <code>myChannels</code> query results and will be hidden when the user wants to fetch his or her channels.</p><p>However, <code>hidden</code> channel will automatically be <code>visible</code> when new <code>message</code> has been created and this is defined in <code>changeVisibilityWhenInvisible</code> function.</p><pre><code class="language-ts">const changeVisibilityWhenInvisible = () =&gt; ctx.prisma.membership.update({
+  data: { isVisible: true },
+  where: {
+    userId_channelId: {
+      userId,
+      channelId: existingChannel.id,
+    },
+  },
+});
+</code></pre><h2 id="current-status">Current status</h2><h4 id="08172020">08/17/2020</h4><p>In our mobile application, we only have <code>private</code> channel senario and the <code>public</code> channel senario will be updated in future when things go well. The <code>public</code> channel will be any kinds of group chats except the <a href="https://slack.com/intl/en-kr/help/articles/212281468-What-is-a-direct-message">direct messages in slack</a>.</p></div></article><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Blog list page navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/docs/server/specification"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« Specification</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/docs/server/membership"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Membership »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_3klQ"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#entity-design" class="table-of-contents__link">Entity Design</a></li><li><a href="#creating-channel" class="table-of-contents__link">Creating channel</a></li><li><a href="#creating-channel-with-message" class="table-of-contents__link">Creating channel with message</a></li><li><a href="#types-of-channel" class="table-of-contents__link">Types of channel</a></li><li><a href="#leaving-the-channel" class="table-of-contents__link">Leaving the channel</a></li><li><a href="#current-status" class="table-of-contents__link">Current status</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Docs</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/development/contributing">Development</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a href="https://dooboolab.com/joinSlack" target="_blank" rel="noopener noreferrer" class="footer__link-item">Slack</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Social</h4><ul class="footer__items"><li class="footer__item"><a href="https://medium.com/dooboolab" target="_blank" rel="noopener noreferrer" class="footer__link-item">Medium</a></li></ul></div></div><div class="text--center"><div></div></div></div></footer></div>
+<script src="/styles.c2caf380.js"></script>
+<script src="/runtime~main.afd2e2ba.js"></script>
+<script src="/main.e7e17f71.js"></script>
+<script src="/1.da27f2db.js"></script>
+<script src="/2.4c287682.js"></script>
+<script src="/48.99e1f94c.js"></script>
+<script src="/49.e4acb148.js"></script>
+<script src="/20ac7829.dd1fb4bc.js"></script>
+<script src="/17896441.390436a5.js"></script>
+<script src="/c5f91363.ce439f06.js"></script>
+</body>
+</html>
