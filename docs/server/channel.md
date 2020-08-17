@@ -103,17 +103,17 @@ const createMessage = (
 
 ## Types of channel
 
-There are two types of channel defined in `ChannelType` which are `private` and `public`.
+There are two types of channel defined in `ChannelType` which are **private** and **public**.
 
-The `public` channel can have a duplicate array of `users` and they can be created continuously while the `private` channel needs unique users.
-* By passing array of `userIds` in `ChannelCreateInput`, users will grant the `Permission` to newly created channel. If the channel is `public`, there will be a different `permissionType` for each user and one of them will grant a `owner` permission.
+The **public** channel can have a duplicate array of `users` and they can be created continuously while the **private** channel needs unique users.
+* By passing array of `userIds` in `ChannelCreateInput`, users will grant the `Permission` to newly created channel. If the channel is **public**, there will be a different `permissionType` for each user and one of them will grant a `owner` permission.
 
 
 ## Leaving the channel
 
-The `isVisible` field exists in `Membership` model for `private` channel when the user wants to leave the channel. It will be set to `false` and this will affect `myChannels` query results and will be hidden when the user wants to fetch his or her channels.
+The `isVisible` field exists in `Membership` model for **private** channel when the user wants to leave the channel. It will be set to `false` and this will affect `myChannels` query results and will be hidden when the user wants to fetch his or her channels.
 
-However, `hidden` channel will automatically be `visible` when new `message` has been created and this is defined in `changeVisibilityWhenInvisible` function.
+However, `hidden` channel will automatically be `visible` when new **message** has been created and this is defined in `changeVisibilityWhenInvisible` function.
 
 ```ts
 const changeVisibilityWhenInvisible = () => ctx.prisma.membership.update({
@@ -131,5 +131,5 @@ const changeVisibilityWhenInvisible = () => ctx.prisma.membership.update({
 
 #### 08/17/2020
 
-In our mobile application, we only have `private` channel senario and the `public` channel senario will be updated in future when things go well. The `public` channel will be any kinds of group chats except the [direct messages in slack](https://slack.com/intl/en-kr/help/articles/212281468-What-is-a-direct-message).
+In our mobile application, we only have **private** channel senario and the **public** channel senario will be updated in future when things go well. The **public** channel will be any kinds of group chats except the [direct messages in slack](https://slack.com/intl/en-kr/help/articles/212281468-What-is-a-direct-message).
 

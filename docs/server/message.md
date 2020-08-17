@@ -21,5 +21,5 @@ The `photo` and the `file` will be provided by the array of string which contain
 
 ## Encryption
 
-The `encryption` is being done in `text` message only. This should be `encrypted` and `decrpyted` when communicating with [database](https://en.wikipedia.org/wiki/Database). We are using [aes-192-cbc](https://encode-decode.com/aes-192-cbc-encrypt-online) algorithm with [crypto](https://nodejs.org/api/crypto.html) package in [nodejs](https://nodejs.org).
+The encryption is being done in **text** message only. This should be **encrypted** and **decrpyted** when communicating with [database](https://en.wikipedia.org/wiki/Database). We are using [aes-192-cbc](https://encode-decode.com/aes-192-cbc-encrypt-online) algorithm with [crypto](https://nodejs.org/api/crypto.html) package in [nodejs](https://nodejs.org).
 * You can read more about it in [nodejs crypto](https://nodejs.org/api/crypto.html).

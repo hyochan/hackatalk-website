@@ -10,7 +10,7 @@ Features mainly describes what services we provide to `HackaTalk` users. We gene
 
 <img src="https://user-images.githubusercontent.com/27461460/89128311-d875cf00-d52f-11ea-9107-2ee2e6fe2e58.png" width="200"/>
 
-Creating a `channel` is creating a `chatroom`. If the user creates the channel manually selecting other users they wish to chat with, this will be a `private` channel as well as `1-1 chat`. We have another channel type `public` and this is used for public messaging. To create a `public` channel, users will type in the `name` of channel and get an unique id for that `channel`. Then the user can invite other users to the `public` channel with that unique id. Below are 3 general senarios listed. 
+Creating a `channel` is creating a `chatroom`. If the user creates the channel manually selecting other users they wish to chat with, this will be a **private** channel as well as `1-1 chat`. We have another channel type **public** and this is used for public messaging. To create a **public** channel, users will type in the `name` of channel and get an unique id for that **channel**. Then the user can invite other users to the **public** channel with that unique id. Below are 3 general senarios listed. 
 <br/>
 
 ```graphql
