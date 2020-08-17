@@ -23,6 +23,9 @@ module.exports = {
     Server: [
       'server/overview',
       'server/specification',
+      'server/channel',
+      'server/membership',
+      'server/message',
     ],
   },
 };
