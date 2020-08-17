@@ -10,7 +10,7 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.49",
+    "@docusaurus/core": "^2.0.0-alpha.61",
     "@docusaurus/preset-classic": "^2.0.0-alpha.49",
     "@mdx-js/react": "^1.6.16",
     "classnames": "^2.2.6",
