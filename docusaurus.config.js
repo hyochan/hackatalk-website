@@ -22,8 +22,8 @@ module.exports = {
         src: 'img/logo.png',
       },
       items: [
-        { to: 'docs/development/contributing', label: 'Development', position: 'left' },
-        { to: 'blog', label: 'Blog', position: 'left' },
+        { to: '/docs/development/contributing', label: 'Development', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/dooboolab/hackatalk',
           label: 'GitHub',
@@ -39,7 +39,7 @@ module.exports = {
           items: [
             {
               label: 'Development',
-              to: 'docs/development/contributing',
+              to: '/docs/development/contributing',
             },
           ],
         },
