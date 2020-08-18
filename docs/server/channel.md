@@ -4,7 +4,7 @@ title: Channel
 sidebar_label: Channel
 ---
 
-`Channel`(aka `Chatroom`) is an important concept when building chat apps. `Channel` can aggregate users and make them prepare chattings. There can exist many relational models in-between `User` and `Channel`. This way makes life easier for a developer who wants to add complex business logic in their chat application.
+`Channel`(aka `Chatroom`) is an important concept when building chat apps. `Channel` can aggregate users and make them prepare chats. There can exist many relational models in-between `User` and `Channel`. This way makes life easier for a developer who wants to add complex business logic in their chat application.
 
 Say you want to make the user grant permission to other users in the `Channel`, then we can create `Membership` relation in between. Another scenario is when the user wants to manage the sound(vibrate, silent, etc) of each channel, we can create `Sound` relation. Like so, we can add more relations in between to handle more complex logic.
 
