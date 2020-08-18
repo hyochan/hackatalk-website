@@ -123,7 +123,7 @@ The **public** channel can have a duplicate array of `users` and they can be cre
 
 ## Leaving the channel
 
-This section explains the process that will occur when the user leaves a channel.
+This section explains the process that will occur when the user leaves a channel. Currently, we have only described the changes scenario for the 'private' channel. The public channel will soon be updated as we make more progress!
 
 For the private channel, the `isVisible` field exists in `Membership` model. When the user leaves the channel, the `isVisible` will be set to `false` and this will affect `myChannels` query results because the channel that the user wishes to leave will no longer be displayed on on their list of channels.
 
