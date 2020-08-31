@@ -19,6 +19,7 @@ module.exports = {
       'client/installation',
       'client/components',
       'client/integrate-with-backend',
+      'client/search-users',
     ],
     Server: [
       'server/overview',
