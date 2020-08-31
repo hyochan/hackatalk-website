@@ -16,9 +16,10 @@ Client project belongs to seperate directory [client](https://github.com/doobool
    ```
    cd client
    ```
+   - Also note that yarn.lock and package-lock.json sometimes make collision. Try to delete one of them.
 3. Copy the environment file.
    ```
-   cp .config.sample.ts .config.ts
+   cp config.sample.ts .config.ts
    ```
 4. Install packages. We recommend using [yarn](https://classic.yarnpkg.com) instead of `npm`.
    ```
