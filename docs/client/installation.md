@@ -35,3 +35,9 @@ Client project belongs to seperate directory [client](https://github.com/doobool
       rm -rf node_modules && yarn
    ```
    this will reinstall node_modules and yarn after this, run yarn start again.
+
+6. Login to Hackatalk
+   
+   - You can log into Hackatalk with 
+      ID : hackatalk@gmail.com
+      pass : password12!
