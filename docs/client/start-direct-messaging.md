@@ -54,5 +54,5 @@ const MessageScreen: FC<Props> = (props) => {
 ...
 ```
 
-In `MainStackNavigator.tsx`, we are sending `Message` screen a params which can be `MessageItemChannel` or `MessageItemUser`. Therefore in `Message.tsx`, we applied type-guard to handle different cases. We wanted to make this simple so we came up with providing an ad-hoc resolver called `findOrCreatePrivateChannelId` in our backend. This will return the `Channel` data and fulfill your data to be loaded in the `Message` screen. Therefore, `findOrCreatePrivateChannelId` should be called every time before entering the `Message` screen.
+In `MainStackNavigator.tsx`, we are sending `Message` screen a params which can be `MessageItemChannel` or `MessageItemUser`. Therefore in `Message.tsx`, we applied type-guard to handle different cases. We wanted to make this simple so we came up with providing an ad-hoc resolver called `findOrCreatePrivateChannel` in our backend. This will return the `Channel` data and fulfill your data to be loaded in the `Message` screen. Therefore, `findOrCreatePrivateChannel` should be called every time before entering the `Message` screen.
 > This could be partially handled in client-side to prevent re-fetching.
