@@ -29,5 +29,10 @@ module.exports = {
       'server/membership',
       'server/message',
     ],
+    Postgres: [
+      'postgres/description',
+      'postgres/shell',
+      'postgres/pgcli',
+    ],
   },
 };
