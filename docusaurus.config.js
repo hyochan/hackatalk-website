@@ -73,7 +73,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/dooboolab/hackatalk-website/tree/master/docs'
+            'https://github.com/dooboolab/hackatalk-website/tree/master'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
