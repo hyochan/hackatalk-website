@@ -1,5 +1,5 @@
 ---
-id: relay-integration
+slug: relay-integration
 title: Integrate graphql client relay
 author: hyochan
 authorTitle: dooboolab core team

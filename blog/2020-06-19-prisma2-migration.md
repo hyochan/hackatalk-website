@@ -1,5 +1,5 @@
 ---
-id: prisma2-migration
+slug: prisma2-migration
 title: Migrating server to Prisma2
 author: clark
 authorTitle: dooboolab core team

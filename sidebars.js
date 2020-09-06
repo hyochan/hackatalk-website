@@ -20,6 +20,7 @@ module.exports = {
       'client/components',
       'client/integrate-with-backend',
       'client/search-users',
+      'client/start-direct-messaging',
     ],
     Server: [
       'server/overview',

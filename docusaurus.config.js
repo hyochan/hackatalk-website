@@ -10,6 +10,7 @@ module.exports = {
   tagline: 'Opensource chat app that works on iOS, android and web',
   url: 'https://website.hackatalk.dev',
   baseUrl: '/',
+  onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'dooboolab',
   projectName: 'hackatalk-website',
@@ -62,7 +63,7 @@ module.exports = {
           ],
         },
       ],
-      // copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} dooboolab.`,
     },
   },
   presets: [
@@ -71,6 +72,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:
+            'https://github.com/dooboolab/hackatalk-website/tree/master/docs'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -1,5 +1,5 @@
 ---
-id: dooboo-cli-v3
+slug: dooboo-cli-v3
 title: dooboo-cli v3 releases
 author: hyochan
 authorTitle: dooboolab core team

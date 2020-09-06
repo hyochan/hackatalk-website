@@ -1,5 +1,5 @@
 ---
-id: setup-postgresql-prisma2
+slug: setup-postgresql-prisma2
 title: Setup postgresql for prisma2
 author: hyochan
 authorTitle: dooboolab core team

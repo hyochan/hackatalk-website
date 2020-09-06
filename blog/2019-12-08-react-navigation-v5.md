@@ -1,5 +1,5 @@
 ---
-id: react-navigation-v5
+slug: react-navigation-v5
 title: Migrating react-navigation version 5
 author: hyochan
 authorTitle: dooboolab core team
