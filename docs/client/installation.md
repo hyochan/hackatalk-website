@@ -20,7 +20,7 @@ Client project belongs to seperate directory [client](https://github.com/doobool
 
 3. Copy the environment file.
    ```
-   cp config.sample.ts .config.ts
+   cp config.sample.ts config.ts
    ```
 4. Install packages. We recommend using [yarn](https://classic.yarnpkg.com) instead of `npm`.
    ```
@@ -32,7 +32,7 @@ Client project belongs to seperate directory [client](https://github.com/doobool
    ```
    - If you have an error in node_modules, try
    ```
-      rm -rf node_modules && yarn
+   rm -rf node_modules && yarn
    ```
    this will reinstall node_modules and yarn after this, run yarn start again.
 
