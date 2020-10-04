@@ -8,7 +8,7 @@ sidebar_label: Overview
 
 These diagrams are for those who want to understand how this project operates at a glance.
 
-### Root: index.js
+### Root: src/index.js
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
