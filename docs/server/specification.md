@@ -10,4 +10,4 @@ We are using [Prisma](https://www.prisma.io) and [nexus](https://nexus.js.org/do
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('diagrams/server_specification.drawio.svg')} alt="hackatalk starting server diagram" />
+<img src={useBaseUrl('diagrams/server_specification.drawio.svg')} alt="hacaktalk overall structure diagram" />
