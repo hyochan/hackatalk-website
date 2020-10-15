@@ -8,4 +8,6 @@ Our development server is open for everyone in [azure websites](https://hackatal
 
 We are using [Prisma](https://www.prisma.io) and [nexus](https://nexus.js.org/docs/nexus-prisma) to serve our resolvers.
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 <img src={useBaseUrl('diagrams/server_specification.drawio.svg')} alt="hackatalk starting server diagram" />
