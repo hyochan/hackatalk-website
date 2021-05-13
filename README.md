@@ -1,4 +1,4 @@
-# Website
+# Website (Deprecated)
 
 > Current website is managed in [HackaTalk monorepo](https://github.com/dooboolab/hackatalk) in path, [website](https://github.com/dooboolab/hackatalk/tree/master/website).
 
